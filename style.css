@@ -1,0 +1,88 @@
+body{
+    font-family: "Inter", sans-serif;
+}
+.main-container{
+    background-color: #3579F5;
+    width: 743px;
+    height: 91px;
+    margin: 0 auto;
+    margin-top: 400px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+
+.btn-container button{
+    padding: 10px 25px;
+    border-radius: 6px;
+    margin-right: 18px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+    border-style: none;
+    color: #4777ED;
+    
+
+}
+
+.circle-container{
+    margin-left: 22px;
+    margin-right: 16px;
+}
+
+.circle-container .circle{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF80;
+    border-radius: 50%;
+
+}
+
+
+
+.string-container{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-right: 68px;
+}
+
+span{
+    color:#FFFFFF
+}
+
+
+.next-action{
+ font-weight: 400;   
+ font-size: 12px;
+line-height: 18px;
+}
+
+.completed-actions{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.checklist{
+    background-color: #2364DB;
+    max-width: fit-content;
+    padding-left: 13px;
+    padding-right: 13px;
+    border-radius: 50px;
+    line-height: 18px;
+}
+
+.nums{
+font-weight:400;
+font-size:20px;
+Line-height:30px;
+position: absolute;
+left: 14px;
+top: 15px;
+}
